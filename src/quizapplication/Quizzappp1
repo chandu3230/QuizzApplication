@@ -4,18 +4,18 @@ public class Quizzapp1 extends Participant1{
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Participant1 p = new Participant1();
-        p.setEmail("chandu3037@gmail.com");
-        p.setPassword("chandu@1234");
         p.setName("Chandu");
         p.setAge(20);
         p.setAddress("Palamaner");
         p.setOccupation("Student");
-        System.out.println("Email: " + p.getEmail());
-        System.out.println("Password: " + p.getPassword());
+        p.setEmail("chandu3037@gmail.com");
+        p.setPassword("chandu@1234");
         System.out.println("Name: " + p.getName());
         System.out.println("Age: " + p.getAge());
         System.out.println("Address: " + p.getAddress());
         System.out.println("Occupation: " + p.getOccupation());
+        System.out.println("Email: " + p.getEmail());
+        System.out.println("Password: " + p.getPassword());
         System.out.println("Are you ready to take up the quiz game? (yes/no)");       
         String response = sc.next().toLowerCase();
         if (response.equals("yes")) {
