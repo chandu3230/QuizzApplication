@@ -23,7 +23,7 @@ public class Quizzapp1 extends Participant1{
             System.out.println("1. Each question has 4 options.");
             System.out.println("2. You have 2 lifelines to use.");
             System.out.println("3. Each lifeline can be used only once.");
-            System.out.println("4. If you answer incorrectly, the game ends.");
+            System.out.println("4. If your answer incorrect, the game ends.");
             System.out.println("Start quiz!");
             String[] questions = {
                 "1. What is the national flower of India?",
